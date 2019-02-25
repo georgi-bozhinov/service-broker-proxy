@@ -14,7 +14,7 @@ steps:
     timeoutSeconds: 60
     branch: 'new-version'
   buildDepProjects:
-    projects: []
+    projects: ['release-sb-proxy-cf-os', 'release-sb-proxy-k8s-os']
   XMakeBuild:
     buildWithXMake: false
     # projects: ['b1', 'b2', 'b3']
