@@ -8,6 +8,7 @@ general:
 steps:
   updatePackageRefs:
     deps: ["github.com/georgi-bozhinov/service-manager"]
+    skipDepRebuild: true
   pushChangesToRepo:
     branch: 'new-version'
   pollBuilds:
